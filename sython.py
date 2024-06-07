@@ -41,7 +41,7 @@ sython.start()
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@SP_Fra3nh"))
+        await sython(JoinChannelRequest("@SO_Fra3nh"))
     except BaseException:
         pass
         
@@ -56,7 +56,7 @@ async def join_channel(event):
 @sython.on(events.NewMessage)
 async def join_channel(event):
     try:
-        await sython(JoinChannelRequest("@SP_Fra3nh"))
+        await sython(JoinChannelRequest("@h_m_saT"))
     except BaseException:
         pass  
         
@@ -93,7 +93,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await sython(JoinChannelRequest("@SP_Fra3nh"))
+        await sython(JoinChannelRequest("@TANSEEp"))
     except BaseException:
         pass
 
@@ -465,7 +465,7 @@ async def _(event):
 ╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
 ''')
 @sython.on(events.NewMessage(outgoing=True, pattern=r"\.المطورين"))
-async def _(event):
+async def _(@S_W_I1):
     start = datetime.datetime.now()
     await event.edit("waiting...")
     end = datetime.datetime.now()
@@ -650,7 +650,7 @@ bot_usernameeee = '@xnsex21bot'
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await sython(JoinChannelRequest('SP_Fra3nh'))
+    joinu = await sython(JoinChannelRequest('@tsmym_swr'))
     channel_entity = await sython.get_entity(bot_username)
     await sython.send_message(bot_username, '/start')
     await asyncio.sleep(4)
@@ -693,7 +693,7 @@ async def _(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await sython(JoinChannelRequest('SP_Fra3nh'))
+    joinu = await sython(JoinChannelRequest('@BOTES_FR'))
     channel_entity = await sython.get_entity(bot_usernamee)
     await sython.send_message(bot_usernamee, '/start')
     await asyncio.sleep(4)
@@ -736,7 +736,7 @@ async def _(event):
 async def _(event):
 
     await event.edit("**جاري تجميع النقاط**")
-    joinu = await sython(JoinChannelRequest('saythonh'))
+    joinu = await sython(JoinChannelRequest('@BB_OO_14'))
     channel_entity = await sython.get_entity(bot_usernameee)
     await sython.send_message(bot_usernameee, '/start')
     await asyncio.sleep(4)
